@@ -1,0 +1,126 @@
+:root{
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+    --cor-azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --cor-aliceblue: aliceblue;
+    --cor-azul-claro: rgb(166, 207, 242)
+}
+
+body{ 
+    background: var(--cor-azul-degrade);
+}
+
+.cabecalho-titulo{
+    font-family: var(--fonte-secundaria);
+    color: var(--cor-azul-claro);
+    font-weight: 700;
+    font-size: 40px;
+    margin: 2rem;
+    
+}
+
+.corpo-principal{
+    background-color: var(--cor-aliceblue);
+    display: flex;
+    gap: 2rem;
+    margin: 2rem 2rem 4rem 2rem;
+    border: 2px solid var(--cor-aliceblue);
+    border-radius: 20px;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;    
+   
+}
+
+.imagem-carrinho{
+    width: 20rem;
+    margin-left: -0.5rem;
+}
+
+.input-carrinho{
+    margin: -1rem 0 1.5rem -0.5rem;
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 0.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+.adicionar-item{
+    border: 1px solid var(--cor-azul-degrade);
+    background: var(--cor-azul-degrade);
+    color: var(--cor-azul-claro);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.limpar-lista{
+    border: 1px solid var(--cor-azul-degrade);
+    background: var(--cor-azul-degrade);
+    color: var(--cor-azul-claro);
+    font-family: var(--fonte-secundaria);
+    font-weight: 700;
+    border-radius: 20px;
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+}
+
+.lista-carrinho{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: var(--fonte-secundaria);
+    font-weight: 400;
+}
+
+.lista-carrinho-titulo{
+    text-align: left;
+    color: var(--cor-azul-degrade);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.lista-carrinho-item{
+    display: flex;
+    align-items: center;
+    margin: 1rem 0 .5rem 0;
+    gap: .5rem;
+}
+
+.texto-item{
+    color: var(--cor-azul-degrade);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0.2rem;
+}
+
+.texto-data{
+    font-weight: 300;
+}
+
+.mensagem-lista-vazia{
+    font-family: var(--fonte-secundaria);
+    line-height: 1.5rem ;
+    margin: 1rem 0 0 0;
+    text-align: left;
+    font-size: 20px;
+}
+
+.botao-lixeira{
+    width: 2rem;
+    background-image: "Lixeira.png";
+}
+
+.lista-de-compras{
+    width: 15rem;
+}

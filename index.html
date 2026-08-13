@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&fa
+                mily=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=".//styles/reset.css">
+    <link rel="stylesheet" href=".//styles/style.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <header>
+        <h1 class="cabecalho-titulo">Seja Bem Vindo a Sua Lista de Compras!</h1>
+    </header>
+    <main class="corpo-principal">
+        <img src="./img/Carrinho__2.png"
+         alt="Imagem de um Carrinho de Compras"
+         class="imagem-carrinho">
+        <form>
+            <input type="text" 
+             class="input-carrinho"
+             id="input-carrinho"
+             placeholder = "Escreva o produto que deseja adicionar."
+             maxlength="20">
+
+            <button type="button"
+             id="adicionar-item"
+             class="adicionar-item">
+             Adicionar Item
+            </button>
+
+        </form>
+
+        <ul id="lista-de-compras" class="lista-de-compras">
+            <h2 class="lista-carrinho-titulo">Lista de Compras:</h2>
+            <h3 class="mensagem-lista-vazia">Não há nenhum item na lista no momento!</h3>
+        </ul>
+    </main>
+    <script type = "module" src="index.js"></script>
+</body>
+</html>
